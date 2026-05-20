@@ -2,6 +2,10 @@
 
 An FPGA-based digital safe lock system designed in VHDL with Xilinx Vivado. The project implements a three-digit password mechanism, attempt tracking, countdown behavior, LED feedback, buzzer alerts, seven-segment display output, and servo-based lock control.
 
+## Demo Video
+
+Watch the project demo on YouTube: [Locked Safe System Demo](https://youtu.be/F8EEcSHaBgI)
+
 ## Overview
 
 The system accepts a three-digit BCD input from switches, compares it with the active password, and controls the safe lock state based on the result. A correct password unlocks the safe by driving a servo PWM signal. Incorrect attempts reduce the remaining attempt count, activate a short buzzer warning, and rotate the active password through a finite state machine.
